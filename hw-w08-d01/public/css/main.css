@@ -1,0 +1,20 @@
+*{
+  font-family: Garamound;
+  font-size: 16px;
+}
+
+h1{
+  font-size: 36px;
+}
+
+body{
+  background-color: #95ee72;
+}
+
+div{
+  margin: 5px;
+}
+
+.newDiv{
+  margin-top: 20px;
+}

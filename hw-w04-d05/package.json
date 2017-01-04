@@ -1,0 +1,29 @@
+{
+  "name": "hw-w04-d05",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "starter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:hwerman/hw-w04-d05.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.8.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "eslint-plugin-jquery": "^1.0.1"
+  },
+  "dependencies": {
+    "eslint-plugin-jquery": "^1.0.1",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
+}

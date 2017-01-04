@@ -1,0 +1,83 @@
+body{
+  background-image: url("PICbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header{
+  font-family: helvetica;
+  text-align: center;
+  font-size: 56px;
+  margin-top: 60px;
+  color: #ffffff;
+}
+
+#start{
+  font-family: helvetica;
+  height: 40px;
+  width: 200px;
+  background-color: #000000;
+  font-size: 40px;
+  text-align: right;
+  border: 3px solid #f00d13;
+  margin: 0px;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#container{
+  padding: 100px;
+  height: 800px;
+  width: 800px;
+}
+
+#yeezy{
+  height: 120px;
+  width: 100px;
+  margin: 0px;
+  background-color: rgba(100,100,100,0);
+  content: url("PICkanye1.png");
+  padding: 25px;
+}
+
+#approval{
+  height: 100px;
+  width: 200px;
+  margin: 0 10px;
+  background-color: rgba(100,100,100,0);
+  content: url("PICpublic.png");
+  padding: 5px;
+}
+
+#george{
+  height: 120px;
+  width: 120px;
+  margin: 0px;
+  background-color: rgba(100,100,100,0);
+  content: url("PICgwbush.png");
+  padding: 25px;
+}
+
+@media screen and
+  (min-width: 320px) and
+  (max-width: 765px) and
+  (orientation: landscape){
+  #yeezy{
+    height: 60px;
+    width: 50px;
+  }
+  #approval{
+    height: 50px;
+    width:100px;
+  }
+  #george{
+    height: 60px;
+    width: 60px;
+  }
+  header{
+    font-size: 40px;
+  }
+  }

@@ -1,0 +1,66 @@
+* {
+  font-family: 'Montez', cursive;
+  margin: 20px auto;
+}
+
+html{
+  /*background: #000000;
+  background-image: url(./border.jpg);
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: center;*/
+  background: #000000 url(./border.jpg) repeat-y fixed center;
+}
+
+body {
+  font-size: 40px;
+}
+
+.box{
+  text-align: center;
+  margin: 10px auto;
+}
+
+h1 {
+  font-family: helvetica;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  background-color: #a62436;
+}
+
+.field{
+  align-content: center;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#inputBtn{
+  font-size: 24px;
+}
+
+#searchBtn{
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #a62436;
+}
+
+#flexContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 75%;
+}
+
+.resultName{
+  font-size: 36px;
+  text-align: center;
+  height: 38px;
+  width: 200px;
+}
+
+.resultImg{
+  border: solid 3px #000000;
+  align-content: center;
+}

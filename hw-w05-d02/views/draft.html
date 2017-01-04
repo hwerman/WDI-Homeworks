@@ -1,0 +1,92 @@
+
+  <%= for each function to append each sighting to a new div lalala %>
+
+
+  <% sightings.forEach((state)=> {
+      <div> <%=state%> </div>
+  <% }) %>
+  <% sightings.forEach((city)=> {
+      <div> <%=city%> </div>
+  <% }) %>
+  <% sightings.forEach((shape)=> {
+      <div> <%=shape%> </div>
+  <% }) %>
+
+
+app.get('/:state', (req, res) => {
+const myState = req.query.state{
+  if myState = sightings.state[i]{
+    console.log[i]
+  }
+}
+
+})
+
+
+function getValue(){
+  sightings.forEach(function(sighting){
+  console.log(sighting);
+})
+}
+getValue();
+
+let myLocation = sightings.city.filter(function(sighting){
+  if (sighting.city){
+    return sighting;
+  }
+})
+
+app.get('/', (req,res_ =>{
+  res.render('index', {
+    divs: sightings
+  })
+
+}))
+
+
+  <% sightings.forEach(sighting => { %>
+    <div> <%= sighting %></div>
+    <% }) %>
+
+
+
+// console.log(sightings);
+
+// const theState =
+
+// const theCity =
+
+// const theShape =
+
+// app.get('/sightings', (req, res) => {
+//   let getState = sightings.filter(function(sighting){
+//     if (req.query.state === sighting.state){
+//       // res.send(sighting);
+//       return(sighting)
+//     }
+//   })
+// })
+
+// else if (req.query.state === sighting.state){
+//       return(sighting)
+//     }
+
+
+
+// app.get('/sightings', (req, res) => {
+//   let getShape = sightings.filter(function(data){
+//     if (req.query.shape === data.shape){
+//       res.send(data);
+//       return(data)
+//     }
+//   })
+// })
+
+
+
+// app.get('/sightings', (req, res) => {
+//   let getInfo = sightings.filter(function(sighting){
+
+//   })
+// })
+

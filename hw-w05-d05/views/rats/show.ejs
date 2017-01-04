@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Rats in Restaurants</title>
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
+</head>
+<body>
+  <h1>RestauRats: Rats</h1>
+    <div>
+      <% results.forEach(x => { %>
+      <ul>
+        <li>Descriptor: <%= x.descriptor %></li>
+        <li>Status: <%= x.status %></li>
+        <li>Street Name: <%= x.street_name %></li>
+        <li>Borough: <%= x.borough %></li>
+      </ul>
+      <br>
+      <% }) %>
+    </div>
+</body>
+</html>

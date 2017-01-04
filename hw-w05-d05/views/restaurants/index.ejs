@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Rats in Restaurants</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>RestauRats: Find the restaurants</h1>
+  <div class='opaqueBox'>
+    <form action= '/restaurants/show' id='restaurantsForm' method='GET'>
+        <input type="text" class='restField' name= 'dba' placeholder='Enter dba'>
+        <input type= 'text' class='restField' name= 'cuisine_description' placeholder='Enter cuisine_description'>
+        <input type= 'text' class='restField' name= 'score' placeholder='Enter score'>
+        <input type= 'text' class='restField' name= 'grade' placeholder='Enter grade'>
+        <input type= 'submit' value='Find the restaurants'>
+    </form>
+  </div>
+</body>
+</html>

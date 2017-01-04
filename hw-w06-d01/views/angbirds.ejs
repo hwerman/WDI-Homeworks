@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Angry Birds</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <h1>Angry Birds</h1>
+  <h2>The angry birds page</h2>
+  <a href="http://localhost:3000/">Click here to go back home</a>
+  <div>
+    <% results.forEach(x => {%>
+    <ul>
+        <img src="<%= x.image %>"</li>
+        <li>Name: <%= x.name %></li>
+        <li>Abilities: <%= x.abilities %></li>
+        <li>Group: <%= x.group %></li>
+        <a href="/angry-birds/<%=x.id%>">Link to just this bird</a>
+    </ul>
+      <% }) %>
+    </div>
+    <div>
+    </ul>
+    </div>
+</body>
+</html>
+</body>
+</html>

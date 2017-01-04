@@ -1,0 +1,26 @@
+{
+  "name": "hw-w08-d01",
+  "version": "1.0.0",
+  "description": "![One more time because it's my favorite png](jason-seminara-sells.png)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:hwerman/hw-w08-d01.git"
+  },
+  "author": "H Werman",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "pg-promise": "^5.3.5"
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Rats in Restaurants</title>
+  <link rel="stylesheet" href="http://localhost:3000/style.css">
+</head>
+<body>
+  <h1>RestauRats: Restaurants</h1>
+    <div>
+      <% results.forEach(x => { %>
+      <ul>
+        <li>dba: <%= x.dba %></li>
+        <li>Cuisine: <%= x.cuisine_description %></li>
+        <li>Score: <%= x.score %></li>
+        <li>Grade: <%= x.grade %></li>
+      </ul>
+      <br>
+      <% }) %>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+*{
+  font-family: helvetica;
+}
+
+body{
+  background-color: #4f2934;
+}
+
+h2{
+  margin-left: 4px;
+}
+
+#input{
+  margin: 4px;
+}
+.content1{
+  display: flex;
+  float: left;
+  flex-direction: column;
+  margin: 20px;
+  width: 44%;
+  background-color: #b6d7ce;
+}
+
+.content2{
+  display: flex;
+  float: right;
+  flex-direction: column;
+  margin: 20px;
+  width: 44%;
+  background-color: #b6d7ce;
+}
+
+.filmPoster{
+  height: 200px;
+  width: 140px;
+  display: inline-block;
+}
+
+ul{
+  list-style-type: none;
+}
+

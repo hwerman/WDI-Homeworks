@@ -1,0 +1,23 @@
+{
+  "name": "hw-w05-d05-assessment",
+  "version": "1.0.0",
+  "description": "![](https://media.giphy.com/media/MzJomB2lqeMYE/giphy.gif)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:hwerman/hw-w05-d05-assessment.git"
+  },
+  "author": "H Werman",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "eslint": "^3.8.1",
+    "express": "^4.14.0",
+    "mongod": "^1.3.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
+}
